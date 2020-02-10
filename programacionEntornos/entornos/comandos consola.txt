@@ -1,0 +1,17 @@
+Apuntes rapidos porque no me entero de nada
+pwd--> Mostrar repositorio actual
+cd--> Cambiar el path donde nos encontramos
+cd .. subimos de carpeta/nivel
+mkdir "nombreDirectorio"--> Creamos una carpeta
+rm -rf "nombreDirectorio"--> Eliminamos directorio
+ll--> Muestra el contenido del directorio actual
+git init "nombreRepositorio"--> crea repositorio
+nano "nombreFichero"."ExtensionQueQuieras"-->abres un editor de texto
+--control x-->salir del editor y te permite elegir si guardar o no
+git status--> para saber quienes estan en seguimiento
+git add--> para añadir un archivo a seguimiento
+git rm --cached "nombreArchivo"--> para quitar el seguimiento
+git config --global user.name "nombre"--> identificarse
+git config --global user.email "email"--> dar un email
+git commit --m "escribir algo"--> para supuestamente escribir algo
+git log--> te muestra lo que supuestamente hay
