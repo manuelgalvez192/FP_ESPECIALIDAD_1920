@@ -1,19 +1,19 @@
 package Clases;
 
 public class Division extends Operaciones{
-
+	
 	public void setDivision()
 	{
 		double contador=0;
-		double contador2=0;
-		
-		while(contador2<=operando1)
+		while(operando1>=operando2)
 		{
-			contador2=operando2+operando2;
 			contador++;
+			operando1=operando1-operando2;
+			
 		}
 		
-		resultado=contador;
+		 resultado=contador;
+		
 	}
 	
 	

@@ -6,13 +6,24 @@ public class Multiplicacion extends Operaciones{
 	
 	public void setMultiplicacion()
 	{
-		contador=operando2;
-		while(contador>0)
+		double multiplicacion=operando1;
+		if (operando1==0 || operando2==0) {
+			resultado=0;
+		}else {
+			if(operando1<0 && operando2<0)
+			{
+				operando1=(-operando1);
+				operando2=(-operando2);
+			}
+		for(int i=0;i<operando2-1;i++) 
 		{
-			resultado=operando1+operando1;
-			contador--;
+			multiplicacion=multiplicacion+operando1;
 		}
+			}
+		resultado=multiplicacion;
+	}
+	
 	}
 	
 	
-}
+
